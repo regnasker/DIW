@@ -1,0 +1,15 @@
+header h1 {color:blue; font-family: garamond;}
+article h1 {color:orange; font-size: 24px;}
+h1 +p{background-color: yellow;}
+b.destacado {font-style: italic; color:red; font-weight: 18;}
+#japo {color: purple; font-size: 18px;}
+p:nth-last-child(2){background-color: yellow;}
+p span {color:blue;}
+i{color: green;}
+p:nth-last-child(4){background-color: yellow;}
+span.destacado{color: navy; font-weight: bold;}
+article.imagen p{font-family: garamond; background-color: yellow; color: darkorange;
+font-style: italic; font-size: 18px;}
+a[href^="https:"]{color:olive; font-family: courier new;}
+footer>span{color:pink; font-family: :courier new;}
+a:hover{color: gray; font-weight: bold;}
