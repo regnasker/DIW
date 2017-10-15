@@ -1,0 +1,38 @@
+div{
+
+}
+table, tr, td{
+  text-align: center;
+  background: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: black;
+  margin: auto;
+}
+.css{
+  background: white url("css.png") no-repeat left;
+  background-size: 50px 50px;
+  background-color: lightgrey;
+  text-indent: 1.5cm;
+}
+td:nth-child(even){
+  background-color: lightgray;
+}
+.html{
+  background: white url("html.png") no-repeat left;
+  background-size: 50px 50px;
+  background-color: lightgrey;
+  text-indent: 1.5cm;
+}
+table caption{
+  caption-side: bottom;
+  font-style: oblique;
+  font-family: cursive;
+  text-align: left;
+}
+.css:active{
+  background-color: #FFFF66;
+}
+.html:active{
+  background-color: #FFFF66;
+}

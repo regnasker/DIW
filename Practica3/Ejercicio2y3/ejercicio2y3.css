@@ -1,0 +1,42 @@
+*{
+  font: 0.9em verdana;
+  /*ej 2 color: darkblue;*/
+  color: yellow;
+  line-height: 1.4em;
+  background-image: url("il.jpg");
+}
+h1{
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: white;
+  padding: 10px;
+  background: url("https://1.bp.blogspot.com/_sD9yQTE5QZQ/SGvRFJbT6QI/AAAAAAAADg4/5Ot2-aTA4_w/s400/blue1961.jpg");
+  /*ej2.e*/
+  width:80px;
+  word-wrap:break-word;
+  
+}
+p {
+  text-indent: 1cm;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:last-child{
+  margin: 1em 0;
+  float: left;
+  clear: left;
+}
+.pdf {
+color: #E37529;
+padding: 0 0 0 20px;
+background:transparent url("pdf.png") no-repeat left center;
+background-size: 20px;
+}
