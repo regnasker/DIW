@@ -1,0 +1,49 @@
+ul{
+ list-style: none;
+ background-color: lightgrey;
+ border: 1px solid grey;
+ width: 180px;
+ padding: 0px;
+}
+li ul{
+ display: none;
+ list-style: square;
+ color: green;
+ width: 154px;
+ padding-left: 25px;
+ margin: auto;
+ border-top: 0px;
+}
+li{
+ border-top: 1px solid grey;
+ border-bottom: 1px solid grey;
+}
+li a{
+ text-decoration: none;
+ color: black;
+ padding: 5px 0px 5px 15px;
+ display: block;
+}
+a:hover{
+ display:block;
+ background-color: grey;
+ color: green;
+ }
+ a.sub:hover{
+  display:block;
+  background-color: grey;
+  color: green;
+  background-image:url("flecha.png");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: left;
+ }
+.men:hover{
+  background-color: grey;
+  color: green;
+}
+li:hover ul{
+  display:block;
+  list-style: none;
+  background-position: left;
+}

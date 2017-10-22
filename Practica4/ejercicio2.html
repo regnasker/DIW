@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Inscripción</legend>
+        <fieldset>
+        <legend>Información personal</legend>
+        <div class="nombres">
+          <label for="nombre">Nombre*:</label>
+          <input type="text" name="nombre" autofocus="autofocus" placeholder="Introduce un nombre">
+        </div>
+        <div class="apellidos">
+          <label for="apellidos">Apellidos*:</label>
+          <input type="text" name="apellidos" placeholder="Introduce apellidos">
+        </div>
+        <div class="email">
+          <label for="email">Email*:</label>
+          <input type="email" name="email" placeholder="Introduce un email">
+        </div>
+        <div class="radio">
+          <label for="radio">Sexo:</label>
+          Hombre <input type="radio" name="genero" value="man">
+          Mujer <input type="radio" name="genero" value="woman">
+        </div>
+        <div class="fecha">
+          <label for="fecha">Fecha de nacimiento*:</label>
+          <input type="date" name="fecha" value="">
+        </div>
+        <div class="select">
+          <label for="choose">Provincia:</label>
+          <select class="choose" name="choose">
+            <option value="esp" selected>Escoge provincia</option>
+            <option value="val">Valencia</option>
+            <option value="cas">Castellon</option>
+            <option value="al">Alicante</option>
+          </select>
+        </div>
+        <div class="pobl">
+          <label for="pobl">Población:</label>
+          <input type="text" name="pobl" placeholder="Valencia, Alboraya, etc.">
+        </div>
+        <div class="tlf">
+          <label for="tlf">Teléfono:</label>
+          <input type="text" name="tlf" placeholder="Introduzca un num. de telefono">
+        </div>
+        <div class="txtarea">
+          <label for="txtarea">Motivo inscripción:</label><br>
+          <textarea name="txtarea" rows="" cols="100"></textarea>
+        </div>
+        <div class="color">
+          <label for="color">Escoge el color de tu avatar</label>
+          <input type="color" name="color" value="">
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>Creación usuario</legend>
+          <div class="nombreus">
+            <label for="nombreus">Nombre de usuario*:</label>
+            <input type="text" name="nombreus" placeholder="Introduce nombre de usuario">
+          </div>
+          <div class="contra">
+            <label for="contra">Contraseña*:</label>
+            <input type="password" name="contra" placeholder="Introduce contraseña">
+          </div>
+          <div class="contrarep">
+            <label for="contrarep">Repite contraseña*:</label>
+            <input type="password" name="contrarep" placeholder="Vuelva a introducir contraseña">
+          </div>
+        </fieldset>
+
+          <div class="checkbox">
+          <input type="checkbox" name="men" value="">Deseo recibir copias de los mensajes
+          del foro en mi correo electrónico<br>
+          <input type="checkbox" name="not" value="">Deseo recibir notificaciones de
+          eventos en mi correo electronico
+          </div>
+          <div class="submit">
+            <input type="submit" name="envio" value="Confirmar registro">
+          </div>
+          <fieldset>
+            <div class="nota">
+              Nota: los campos marcados con "*" son obligatorios
+            </div>
+          </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>

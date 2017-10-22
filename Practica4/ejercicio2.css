@@ -1,0 +1,22 @@
+.email, .nombres, .apellidos, .pobl, .tlf, .nombreus,
+.contra,.submit, .contrarep, .fecha, .select{
+  margin-bottom: 15px;
+}
+label{
+ width: 23%;
+ float: left;
+}
+input, .choose{
+  border-radius: 4px;
+}
+textarea{
+
+}
+.nota{
+  font-style: italic;
+}
+input:focus{
+  background: lightgrey;
+  border-color:violet;
+  outline:none;
+}
