@@ -1,0 +1,142 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ margin: auto;
+}
+h1{
+ font-family: Verdana;
+ font-size: 1.5em;
+ font-weight: bold;
+}
+h2, menu{
+ font-family: Verdana;
+ font-size: 0.875em;
+ font-weight: bold;
+}
+.cabecera{
+ background-color: lightblue;
+ display: table;
+ width: 100%;
+}
+
+.logo{
+ width: 100px;
+ display: table-cell;
+}
+.logo > img{
+ width: 80px;
+ padding: 10px;
+ margin: 10px;
+ margin-left: 2.6%;
+ vertical-align: middle;
+}
+.cabecera>h1{
+ display: table-cell;
+ font-family: Helvetica;
+ font-size: 2.25em;
+ font-style: bold;
+ vertical-align: middle;
+ text-transform: capitalize;
+}
+.menuPrincipal{
+ display: table-cell;
+ vertical-align: top;
+ margin-top: 10px;
+}
+.menuPrincipal nav{
+ margin-top: 2%;
+ margin-right: -9%;
+}
+.menuPrincipal ul{
+ display: inline;
+}
+.menuPrincipal li{
+ display: inline-block;
+ background-color: steelblue;
+ padding: 10px;
+ margin-left: 10px;
+}
+.menuPrincipal a{
+ text-decoration: none;
+ color: white;
+}
+/*.container{
+ width: 960px;
+}*/
+.menuSecundario{
+ background-color: lightgrey;
+ display: table;
+ margin-right: 3%;
+ margin-left: 2%;
+ float: right;
+ width: 20%;
+}
+.menuSecundario aside{
+
+}
+.menuSecundario ul{
+ list-style: none;
+ padding-right: 20%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ padding-left: 15px;
+}
+.menuSecundario a{
+ text-decoration: none;
+ color: black;
+}
+.menuSecundario li ul{
+ display:none;
+}
+li:hover ul{
+ width: 20%;
+ margin-left: 2%;
+ display:block;
+}
+.contenido{
+ display: table;
+ margin-top: 5px;
+ margin-left: 4%;
+}
+.entrada1, .entrada2{
+ background-color: linen;
+ border: 2px solid lightgray;
+ padding-top: 3%;
+ padding-bottom: 3%;
+ padding-left: 2%;
+ padding-right: 2%;
+}
+.entrada2{
+ margin-top: 10px;
+}
+.entrada1 img{
+ width: 20%;
+ margin-left: 10px;
+}
+.contenido footer{
+ color: steelblue;
+ margin-left: 25%;
+}
+hgroup{
+ margin-bottom: 10px;
+}
+time{
+ color:gray;
+}
+.entrada1 figcaption{
+font-style: italic;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.contenido{
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+footer{
+ margin-top: 2%;
+ width: 100%;
+}
+footer p{
+ text-align: center;
+ margin: 2%;
