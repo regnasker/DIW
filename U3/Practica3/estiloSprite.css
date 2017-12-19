@@ -1,0 +1,69 @@
+article h1 i{
+  background: url('./iconos/spriteIconos.png');
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  padding-left: 40px;
+
+}
+
+.icon-novedades {
+  background-position:0 -30px;
+  height: 30px;
+  width: 39px;
+}
+
+.icon-contactar{
+  background-position: 0 0px;
+  height: 29px;
+  width:32px;
+}
+
+.icon-estudios{
+  background-position: 0 -61px;
+  width:45px;
+  height:30px;
+}
+footer i:hover{
+  opacity: 0.5;
+}
+footer i{
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+}
+.fa-twitter{
+  background-color: #55acee;
+}
+.fa-facebook-square{
+  background-color: #3b5998;
+}
+.fa-instagram{
+  background-color: #125688;
+}
+.fa-linkedin-square{
+  background-color: #007bb5;
+}
+.videoIframe{
+    height:0px;
+    width:100%;
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+/*El iframe se adapta al tamaño del contenedor que tendrá el ratio adecuado */
+.videoIframe iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+video{
+/*Ocupa el 100% del contenedor (eso es el 50% de la página)*/
+width:100%;
+height: auto;
+/*La instrucción siguiente pone un límite superior de 560px*/
+max-width:560px;
+}
