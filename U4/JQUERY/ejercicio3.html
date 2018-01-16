@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // var apagado = true;
+      // $("#but").click(function () {
+      //   if (apagado) {
+      //     $(".bombilla").css("background-position","-121px 0px");
+      //     $("#but").html("¡Apaga la bombilla!");
+      //     apagado = false;
+      //   }else{
+      //     $(".bombilla").css("background-position","-15px 0px");
+      //     $("#but").html("¡Enciende la bombilla!");
+      //     apagado = true;
+      //   }
+      // });
+          $("img:last").hide();
+          var apagado = true;
+          $("#but").click(function () {
+            if (apagado) {
+              $("img:first").hide();
+              $("img:last").show();
+              $("#but").html("¡Apaga la bombilla!");
+              apagado = false;
+            }else{
+              $("img:first").show();
+              $("img:last").hide();
+              $("#but").html("¡Enciende la bombilla!");
+              apagado = true;
+            }
+          });
+    });
+
+
+
+    </script>
+    <style media="screen">
+      /* .bombilla{
+        height: 192px;
+        width: 117px;
+        background: url("bombilla.jpg") no-repeat center;
+        background-position: -15px 0px;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <div class="bombilla">
+      </div> -->
+      <img src="apagado.jpg" alt="">
+      <img src="encendido.jpg" alt="">
+    <button type="button" id="but">¡Enciende la bombilla!</button>
+  </body>
+</html>
